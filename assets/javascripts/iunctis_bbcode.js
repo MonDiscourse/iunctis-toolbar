@@ -16,6 +16,9 @@ Discourse.Markdown.whiteListTag('div', 'class', 'floatr');
 Discourse.BBCode.replaceBBCode("t", function(contents) { return ['div', {'class': 'titrenews'}].concat(contents); });
 Discourse.Markdown.whiteListTag('div', 'class', 'titrenews');
 
+Discourse.BBCode.replaceBBCode("tac", function(contents) { return ['div', {'class': 'tactique'}].concat(contents); });
+Discourse.Markdown.whiteListTag('div', 'class', 'tactique');
+
 // [LEFT]...[/LEFT]
 // [CENTER]...[/CENTER]
 // [RIGHT]...[/RIGHT]
