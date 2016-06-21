@@ -71,15 +71,6 @@ function priorToApi(container)
       
       onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "details_ui_button",
-          group: "extras",
-          icon: "exclamation-triangle",
-          perform: e => e.applySurround('<details><summary>Texte visible</summary>', '</details>', 'details_ui_default_text')
-        });
-      });
-      
-      onToolbarCreate(toolbar => {
-        toolbar.addButton({
           id: "retourligne_ui_button",
           group: "extras",
           icon: "level-down",
@@ -154,15 +145,6 @@ function initializePlugin(api)
           group: "extras",
           icon: "align-justify",
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
-        });
-      });
-      
-    api.onToolbarCreate(toolbar => {
-        toolbar.addButton({
-          id: "details_ui_button",
-          group: "extras",
-          icon: "exclamation-triangle",
-          perform: e => e.applySurround('<details><summary>Texte visible</summary>', '</details>', 'details_ui_default_text')
         });
       });
       
