@@ -7,7 +7,6 @@
 - Centrer
 - Aligner à droite
 - Justifier
-- Details
 - Retour à la ligne
 
 
