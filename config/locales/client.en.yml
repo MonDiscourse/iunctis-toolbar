@@ -15,7 +15,5 @@ en:
       aligndroite_ui_default_text: " "
       justifier_ui_button_title: "Justifier un texte"
       justifier_ui_default_text: " "
-      details_ui_button_title: "Cacher un texte ou une image"
-      details_ui_default_text: "Texte caché"
       retourligne_ui_button_title: "Passer à la ligne"
       retourligne_ui_default_text: " "
