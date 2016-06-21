@@ -80,15 +80,6 @@ function priorToApi(container)
       
       onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "spoiler_ui_button",
-          group: "extras",
-          icon: "eye-slash",
-          perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text')
-        });
-      });
-      
-      onToolbarCreate(toolbar => {
-        toolbar.addButton({
           id: "retourligne_ui_button",
           group: "extras",
           icon: "level-down",
@@ -172,15 +163,6 @@ function initializePlugin(api)
           group: "extras",
           icon: "exclamation-triangle",
           perform: e => e.applySurround('<details><summary>Texte visible</summary>', '</details>', 'details_ui_default_text')
-        });
-      });
-      
-    api.onToolbarCreate(toolbar => {
-        toolbar.addButton({
-          id: "spoiler_ui_button",
-          group: "extras",
-          icon: "eye-slash",
-          perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text')
         });
       });
       
