@@ -22,8 +22,8 @@ export function setup(helper) {
   helper.whiteList([
     'div.su',
     'div.floatl',
-	'div.floatr',
-	'div.titrenews',
+    'div.floatr',
+    'div.titrenews',
     'font[color=*]',
     'font[size=*]',
   ]);
@@ -35,7 +35,7 @@ export function setup(helper) {
       }
 
       if (tag === 'div' && name === 'style') {
-        return /^text-align:(center|left|right)$/.exec(value);
+        return /^text-align:(center|left|right|justify)$/.exec(value);
       }
     }
   });
@@ -48,7 +48,7 @@ export function setup(helper) {
   replaceBBCode("floatr", contents => ['div', {'class': 'floatr'}].concat(contents));
   replaceBBCode("t", contents => ['div', {'class': 'titrenews'}].concat(contents));
 
-  ["left", "center", "right"].forEach(direction => {
+  ["left", "center", "right", "justify"].forEach(direction => {
     replaceBBCode(direction, contents => ['div', {'style': "text-align:" + direction}].concat(contents));
   });
 
