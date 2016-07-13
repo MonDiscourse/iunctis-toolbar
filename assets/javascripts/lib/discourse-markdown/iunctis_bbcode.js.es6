@@ -40,7 +40,7 @@ export function setup(helper) {
     }
   });
 
-  const { register, replaceBBCode, rawBBCode, replaceBBCodeParamsRaw } = builders(helper);
+  const { register, replaceBBCode } = builders(helper);
 
   replaceBBCode("small", contents => ['span', {'style': 'font-size:x-small'}].concat(contents));
   replaceBBCode("su", contents => ['div', {'class': 'surligne'}].concat(contents));
