@@ -43,7 +43,7 @@ export function setup(helper) {
   const { register, replaceBBCode } = builders(helper);
 
   replaceBBCode("small", contents => ['span', {'style': 'font-size:x-small'}].concat(contents));
-  replaceBBCode("su", contents => ['div', {'class': 'surligne'}].concat(contents));
+  replaceBBCode("su", contents => ['div', {'class': 'su'}].concat(contents));
   replaceBBCode("floatl", contents => ['div', {'class': 'floatl'}].concat(contents));
   replaceBBCode("floatr", contents => ['div', {'class': 'floatr'}].concat(contents));
   replaceBBCode("t", contents => ['div', {'class': 'titrenews'}].concat(contents));
