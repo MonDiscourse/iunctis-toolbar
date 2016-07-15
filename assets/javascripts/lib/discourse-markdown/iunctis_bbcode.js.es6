@@ -20,10 +20,10 @@ function replaceFontSize (text) {
 export function setup(helper) {
 
   helper.whiteList([
-    'div.su',
     'div.floatl',
     'div.floatr',
     'div.titrenews',
+    'span.su',
     'font[color=*]',
     'font[size=*]',
   ]);
@@ -43,10 +43,10 @@ export function setup(helper) {
   const { register, replaceBBCode } = builders(helper);
 
   replaceBBCode("small", contents => ['span', {'style': 'font-size:x-small'}].concat(contents));
-  replaceBBCode("su", contents => ['div', {'class': 'su'}].concat(contents));
   replaceBBCode("floatl", contents => ['div', {'class': 'floatl'}].concat(contents));
   replaceBBCode("floatr", contents => ['div', {'class': 'floatr'}].concat(contents));
   replaceBBCode("t", contents => ['div', {'class': 'titrenews'}].concat(contents));
+  replaceBBCode('su', contents => ['span', { 'class': 'su' }].concat(contents));
 
   ["left", "center", "right", "justify"].forEach(direction => {
     replaceBBCode(direction, contents => ['div', {'style': "text-align:" + direction}].concat(contents));
