@@ -3,6 +3,8 @@ en:
     composer:
       titrenews_ui_button_title: "Utiliser la mise en page d'un titre"
       titrenews_ui_default_text: "Titre"
+      couleur_ui_button_title: "Colorer un texte"
+      couleur_ui_default_text: "Texte"
       surligne_ui_button_title: "Surligner un texte"
       surligne_ui_default_text: "Texte"
       ajoutimage_ui_button_title: "Ajouter une image"
