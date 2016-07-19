@@ -1,6 +1,7 @@
 ## Ajouts
 
 - Titre de news
+- Couleur de texte
 - Surligner
 - Image
 - Float left
