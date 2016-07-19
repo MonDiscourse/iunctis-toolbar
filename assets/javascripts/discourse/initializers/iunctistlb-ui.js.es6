@@ -17,9 +17,18 @@ function priorToApi(container)
       
       onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "surligne_ui_button",
+          id: "couleur_ui_button",
           group: "extras",
           icon: "paint-brush",
+          perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
+        });
+      });
+      
+      onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "surligne_ui_button",
+          group: "extras",
+          icon: "pencil-square-o",
           perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
       });
@@ -96,9 +105,18 @@ function initializePlugin(api)
       
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "surligne_ui_button",
+          id: "couleur_ui_button",
           group: "extras",
           icon: "paint-brush",
+          perform: e => e.applySurround('[color=#]', '[/color]', couleur_ui_default_text')
+        });
+      });
+      
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "surligne_ui_button",
+          group: "extras",
+          icon: "pencil-square-o",
           perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
       });
