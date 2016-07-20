@@ -28,7 +28,7 @@ function priorToApi(container)
         toolbar.addButton({
           id: "surligne_ui_button",
           group: "extras",
-          icon: "pencil-square-o",
+          icon: "pencil-square",
           perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
       });
@@ -116,7 +116,7 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "surligne_ui_button",
           group: "extras",
-          icon: "pencil-square-o",
+          icon: "pencil-square",
           perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
       });
