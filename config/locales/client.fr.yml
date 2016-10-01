@@ -1,0 +1,21 @@
+fr:
+  js:
+    composer:
+      titrenews_ui_button_title: "Utiliser la mise en page d'un titre"
+      titrenews_ui_default_text: "Titre"
+      couleur_ui_button_title: "Colorer un texte"
+      couleur_ui_default_text: "Texte"
+      surligne_ui_button_title: "Surligner un texte"
+      surligne_ui_default_text: "Texte"
+      ajoutimage_ui_button_title: "Ajouter une image"
+      ajoutimage_ui_default_text: "http://"
+      floatl_ui_button_title: "Ajouter du contenu à gauche"
+      floatl_ui_default_text: "Texte"
+      centrer_ui_button_title: "Centrer un texte ou une image"
+      centrer_ui_default_text: "Texte"
+      aligndroite_ui_button_title: "Aligner à droite"
+      aligndroite_ui_default_text: "Texte"
+      justifier_ui_button_title: "Justifier un texte"
+      justifier_ui_default_text: "Texte"
+      retourligne_ui_button_title: "Passer à la ligne"
+      retourligne_ui_default_text: "<br>"
