@@ -83,7 +83,7 @@ function priorToApi(container)
           id: "retourligne_ui_button",
           group: "extras",
           icon: "level-down",
-          perform: e => e.applySurround('<br>', ' ', ' ')
+          perform: e => e.applySurround('<br>', ' ', 'retourligne_ui_default_text')
         });
       });
   }
@@ -171,7 +171,7 @@ function initializePlugin(api)
           id: "retourligne_ui_button",
           group: "extras",
           icon: "level-down",
-          perform: e => e.applySurround('<br>', ' ', ' ')
+          perform: e => e.applySurround('<br>', ' ', 'retourligne_ui_default_text')
         });
       });
   }
