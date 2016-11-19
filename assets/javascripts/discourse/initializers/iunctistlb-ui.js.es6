@@ -8,6 +8,15 @@ function priorToApi(container)
   if (siteSettings.iunctistlb_ui_enabled) {
       onToolbarCreate(toolbar => {
         toolbar.addButton({
+          id: "souligner_ui_button",
+          group: "fontStyles",
+          icon: "underline",
+          perform: e => e.applySurround('[u]', '[/u]', 'souligner_ui_default_text')
+        });
+      });
+    
+      onToolbarCreate(toolbar => {
+        toolbar.addButton({
           id: "titrenews_ui_button",
           group: "extras",
           icon: "newspaper-o",
@@ -77,15 +86,6 @@ function priorToApi(container)
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
         });
       });
-      
-      onToolbarCreate(toolbar => {
-        toolbar.addButton({
-          id: "retourligne_ui_button",
-          group: "extras",
-          icon: "level-down",
-          perform: e => e.applySurround('<br>', ' ', 'retourligne_ui_default_text')
-        });
-      });
   }
 }
 
@@ -94,6 +94,15 @@ function initializePlugin(api)
   const siteSettings = api.container.lookup('site-settings:main');
 
   if (siteSettings.iunctistlb_ui_enabled) {
+     api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "souligner_ui_button",
+          group: "fontStyles",
+          icon: "underline",
+          perform: e => e.applySurround('[u]', '[/u]', 'souligner_ui_default_text')
+        });
+      });
+    
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "titrenews_ui_button",
@@ -163,15 +172,6 @@ function initializePlugin(api)
           group: "extras",
           icon: "align-justify",
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
-        });
-      });
-      
-    api.onToolbarCreate(toolbar => {
-        toolbar.addButton({
-          id: "retourligne_ui_button",
-          group: "extras",
-          icon: "level-down",
-          perform: e => e.applySurround('<br>', ' ', 'retourligne_ui_default_text')
         });
       });
   }
