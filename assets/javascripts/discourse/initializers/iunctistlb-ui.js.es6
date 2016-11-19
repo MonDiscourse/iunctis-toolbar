@@ -17,35 +17,26 @@ function priorToApi(container)
     
       onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "titrenews_ui_button",
-          group: "extras",
-          icon: "newspaper-o",
-          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
-        });
-      });
-      
-      onToolbarCreate(toolbar => {
-        toolbar.addButton({
           id: "couleur_ui_button",
-          group: "extras",
+          group: "fontStyles",
           icon: "paint-brush",
           perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
         });
       });
-      
+    
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "surligne_ui_button",
-          group: "extras",
+          group: "fontStyles",
           icon: "pencil-square",
           perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
       });
-
+    
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "ajoutimage_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "picture-o",
           perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
         });
@@ -54,7 +45,7 @@ function priorToApi(container)
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "floatl_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "indent",
           perform: e => e.applySurround('[floatl]', '[/floatl]', 'floatl_ui_default_text')
         });
@@ -63,7 +54,7 @@ function priorToApi(container)
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "centrer_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-center",
           perform: e => e.applySurround('[center]', '[/center]', 'centrer_ui_default_text')
         });
@@ -72,7 +63,7 @@ function priorToApi(container)
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "aligndroite_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-right",
           perform: e => e.applySurround('[right]', '[/right]', 'aligndroite_ui_default_text')
         });
@@ -81,9 +72,18 @@ function priorToApi(container)
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "justifier_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-justify",
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
+        });
+      });
+    
+      onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "titrenews_ui_button",
+          group: "extras",
+          icon: "newspaper-o",
+          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
         });
       });
   }
@@ -105,44 +105,35 @@ function initializePlugin(api)
     
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "titrenews_ui_button",
-          group: "extras",
-          icon: "newspaper-o",
-          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
+          id: "couleur_ui_button",
+          group: "fontStyles",
+          icon: "paint-brush",
+          perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
         });
       });
       
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "couleur_ui_button",
-          group: "extras",
-          icon: "paint-brush",
-          perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
+          id: "surligne_ui_button",
+          group: "fontStyles",
+          icon: "pencil-square",
+          perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
         });
-    });
+      });
       
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "surligne_ui_button",
-          group: "extras",
-          icon: "pencil-square",
-          perform: e => e.applySurround('[su]', '[/su]', 'surligne_ui_default_text')
+          id: "ajoutimage_ui_button",
+          group: "insertions",
+          icon: "picture-o",
+          perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
         });
       });
 
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "ajoutimage_ui_button",
-          group: "extras",
-          icon: "picture-o",
-          perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
-        });
-      });
-      
-    api.onToolbarCreate(toolbar => {
-        toolbar.addButton({
           id: "floatl_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "indent",
           perform: e => e.applySurround('[floatl]', '[/floatl]', 'floatl_ui_default_text')
         });
@@ -151,7 +142,7 @@ function initializePlugin(api)
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "centrer_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-center",
           perform: e => e.applySurround('[center]', '[/center]', 'centrer_ui_default_text')
         });
@@ -160,7 +151,7 @@ function initializePlugin(api)
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "aligndroite_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-right",
           perform: e => e.applySurround('[right]', '[/right]', 'aligndroite_ui_default_text')
         });
@@ -169,9 +160,18 @@ function initializePlugin(api)
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "justifier_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "align-justify",
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
+        });
+      });
+      
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "titrenews_ui_button",
+          group: "extras",
+          icon: "newspaper-o",
+          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
         });
       });
   }
