@@ -1,6 +1,8 @@
 fr:
   js:
     composer:
+      souligner_ui_button_title: "Souligner du texte"
+      souligner_ui_default_text: "Texte"
       titrenews_ui_button_title: "Utiliser la mise en page d'un titre"
       titrenews_ui_default_text: "Titre"
       couleur_ui_button_title: "Colorer un texte"
@@ -17,5 +19,3 @@ fr:
       aligndroite_ui_default_text: "Texte"
       justifier_ui_button_title: "Justifier un texte"
       justifier_ui_default_text: "Texte"
-      retourligne_ui_button_title: "Passer à la ligne"
-      retourligne_ui_default_text: "<br>"
