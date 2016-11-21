@@ -23,7 +23,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
         });
       });
-    
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "titrenews_ui_button",
@@ -32,7 +32,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
         });
       });
-      
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "floatl_ui_button",
@@ -41,7 +41,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[floatl]', '[/floatl]', 'floatl_ui_default_text')
         });
       });
-      
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "centrer_ui_button",
@@ -50,7 +50,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[center]', '[/center]', 'centrer_ui_default_text')
         });
       });
-      
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "aligndroite_ui_button",
@@ -59,7 +59,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[right]', '[/right]', 'aligndroite_ui_default_text')
         });
       });
-      
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "justifier_ui_button",
@@ -68,7 +68,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
         });
       });
-    
+
        onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "couleur_ui_button",
@@ -77,7 +77,7 @@ function priorToApi(container)
           perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
         });
       });
-    
+
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "surligne_ui_button",
@@ -102,7 +102,7 @@ function initializePlugin(api)
           perform: e => e.applySurround('[u]', '[/u]', 'souligner_ui_default_text')
         });
       });
-      
+
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "ajoutimage_ui_button",
@@ -111,7 +111,7 @@ function initializePlugin(api)
           perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
         });
       });
-    
+
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "titrenews_ui_button",
@@ -133,12 +133,12 @@ function initializePlugin(api)
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "centrer_ui_button",
-          group: "extrass",
+          group: "extras",
           icon: "align-center",
           perform: e => e.applySurround('[center]', '[/center]', 'centrer_ui_default_text')
         });
       });
-      
+
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "aligndroite_ui_button",
@@ -147,7 +147,7 @@ function initializePlugin(api)
           perform: e => e.applySurround('[right]', '[/right]', 'aligndroite_ui_default_text')
         });
       });
-      
+
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "justifier_ui_button",
@@ -165,7 +165,7 @@ function initializePlugin(api)
           perform: e => e.applySurround('[color=#]', '[/color]', 'couleur_ui_default_text')
         });
       });
-    
+
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "surligne_ui_button",
