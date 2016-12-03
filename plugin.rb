@@ -8,5 +8,6 @@ enabled_site_setting :iunctistlb_ui_enabled
 
 register_asset "javascripts/iunctis_bbcode.js", :server_side
 
+register_asset 'stylesheets/iunctisbonus.scss'
 register_asset 'stylesheets/iunctisemojis.scss'
 register_asset 'stylesheets/iunctistlb.scss'
