@@ -1,0 +1,1625 @@
+img.emoji[title=":euro16:"] {
+height: 20px;
+width: 20px;
+}
+
+img.emoji[title=":dc:"] {
+height: 20px;
+width: 50px;
+}
+
+img.emoji[title=":marvel:"] {
+height: 20px;
+width: 50px;
+}
+
+
+img.emoji[title=":vertigo:"] {
+height: 20px;
+width: 50px;
+}
+
+
+img.emoji[title=":sac:"] {
+height: 32px;
+width: 32px;
+margin-bottom: 3px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":calm:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":laporte:"] {
+height: 50px;
+width : 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bave:"] {
+height: 50px;
+width : auto;
+vertical-align: bottom;
+}
+
+img.emoji[title=":laporte2:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":prince:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ez:"] {
+height: 50px;
+width: 62px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jose:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hyene:"] {
+height: 50px;
+width: auto;
+vertical-align: bottom;
+}
+
+
+img.emoji[title=":mais:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":aulas:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":aulas2:"] {
+height: 50px;
+width: 90px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":aulas3:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":aulas4:"] {
+height: 50px;
+width: 49px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clooney:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+    
+}
+
+img.emoji[title=":funes:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hollande:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hoho:"] {
+height: 20px;
+width: 20px;
+}
+
+img.emoji[title=":eek:"] {
+height: 20px;
+width: 20px;
+}
+
+img.emoji[title=":huh:"] {
+height: 20px;
+width: 20px;
+}
+
+img.emoji[title=":no:"] {
+height: 20px;
+width: 20px;
+}
+
+img.emoji[title=":hollande2:"] {
+height: 50px;
+width: 59px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kobe:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kobe2:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mahmoud:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama:"] {
+height: 50px;
+width: 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama2:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama3:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama4:"] {
+height: 50px;
+width: 61px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama5:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama6:"] {
+height: 50px;
+width: 79px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":troll:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sheen:"] {
+height: 50px;
+width: 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sego:"] {
+height: 50px;
+width: 61px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sarko:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sarko2:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sarko3:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sarko4:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":platini:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":platini2:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":haha:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":doc:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sherman:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":owens:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":huum:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dicaprio:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":wut:"] {
+height: 50px;
+width: 63px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama7:"] {
+height: 50px;
+width: 57px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":obama7:"] {
+height: 50px;
+width: 57px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":norris:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":denzel:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":berlusconi:"] {
+height: 50px;
+width: 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":berlusconi2:"] {
+height: 50px;
+width: 72px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":brady:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":brady2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clooney2:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":emo:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dede:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":freud:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hillary:"] {
+height: 50px;
+width: 63px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hollande3:"] {
+height: 50px;
+width: 63px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":imbos:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jeanf:"] {
+height: 50px;
+width: 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":lebron:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":lebron2:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":michelle:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":michy:"] {
+height: 50px;
+width: 83px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":moquette:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":nico:"] {
+height: 50px;
+width: 87px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":uwutmate:"] {
+height: 50px;
+width: 61px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":romo:"] {
+height: 50px;
+width: 91px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":wutno:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":tapie:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":titi:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":madcat:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":tommy:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":emocry:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kermit:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dowant:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":homerargh:"] {
+height: 45px;
+width: 60px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":full:"] {
+height: 50px;
+width: 80px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sadboy:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":platini3:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mercimich:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidmad:"] {
+height: 50px;
+width: 59px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidmad2:"] {
+height: 50px;
+width: 59px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidcrazy:"] {
+height: 50px;
+width: 72px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidpre:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidcray:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidmad:"] {
+height: 50px;
+width: 59px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":catpls:"] {
+height: 50px;
+width: 55px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":twss:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":catpew:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fry:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":adrian:"] {
+height: 50px;
+width: 60px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":tebow:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":underwood:"] {
+height: 50px;
+width: 62px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfamaz:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfareu:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfamaz:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfcomeatme:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfepic:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfforev:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfhappy:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfimpo:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztflol:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfpff:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfphtch:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfpls:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfpls2:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfpoker:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":champion:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":shia:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":soprano:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":labrune:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":calimero:"] {
+height: 29px;
+width: 100px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mott:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":tortue:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":desch:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":delarue:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":facepalm:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":picard:"] {
+height: 50px;
+width: 59px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hallelujah:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":killfire:"] {
+height: 50px;
+width: 79px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":singe1:"] {
+height: 50px;
+width: 51px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfgenius:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clooney3:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clooney4:"] {
+height: 50px;
+width: 60px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":partyhard:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":eac:"] {
+height: 50px;
+width: 54px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mybad:"] {
+height: 50px;
+width: 62px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sacco:"] {
+height: 50px;
+width: 60px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfwhy:"] {
+height: 50px;
+width: 60px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sarko5:"] {
+height: 50px;
+width: 61px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":cole:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":arghh:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":eyeroll:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bubbles:"] {
+height: 50px;
+width: 62px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":trap:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidouin:"] {
+height: 50px;
+width: 63px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clarkson:"] {
+height: 50px;
+width: 64px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kelly:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":rdj:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":cartman:"] {
+height: 50px;
+width: 51px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dealwitcher:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":witcherage:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":witcherwant:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sealion:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":tomsup:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sweetjeezy:"] {
+height: 50px;
+width: 118px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidwow:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kidyay:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":stanley:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":vallsmad:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":karadoc:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":nwachukwu:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":wesh:"] {
+height: 47px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dieudo:"] {
+height: 29px;
+width: 118px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":nicomad:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pep:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":iggywut:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hapuppy:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":paserein:"] {
+height: 50px;
+width: 85px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":horror:"] {
+height: 50px;
+width: 65px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":proud:"] {
+height: 50px;
+width: 76px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":arlette:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pasfaux:"] {
+height: 50px;
+width: 84px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bengous:"] {
+height: 50px;
+width: 81px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bengous2:"] {
+height: 50px;
+width: 92px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fruity:"] {
+height: 24px;
+width: 38px;
+}
+
+img.emoji[title=":harden:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":harden2:"] {
+height: 50px;
+width: 83px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hehe:"] {
+height: 50px;
+width: 67px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hautain:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":what:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mac:"] {
+height: 20px;
+width: 18px;
+}
+
+img.emoji[title=":sif:"] {
+height: 20px;
+width: 26px;
+}
+
+img.emoji[title=":zizou:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kimk:"] {
+height: 50px;
+width: 62px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dsk:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pls:"] {
+height: 20px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":cena:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hogan:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":trump:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":trump2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":trump3:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":castle:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":carlton:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pivot:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":waaa:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":aulas5:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":dicaprio2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":noah:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hunn:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":mutombo:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":papy:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":frogvin:"] {
+height: 50px;
+width: 68px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fapfap:"] {
+height: 50px;
+width: 57px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":triggered:"] {
+height: 50px;
+width: 89px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":coffe:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":murphy:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hillary2:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pasrire:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":calme:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fear:"] {
+height: 50px;
+width: 96px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":donj:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hihi:"] {
+height: 50px;
+width: 74px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":emma:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":blam:"] {
+height: 50px;
+width: 78px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fap2:"] {
+height: 50px;
+width: 66px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":arthur:"] {
+height: 50px;
+width: 80px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":arthur2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":arthur3:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":lost:"] {
+height: 50px;
+width: 80px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":sass:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":conf:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":eey:"] {
+height: 50px;
+width: 73px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":coleman:"] {
+height: 50px;
+width: 80px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fuuu:"] {
+height: 50px;
+width: 78px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":joey:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":nope:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":crymoar:"] {
+height: 50px;
+width: 81px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":harvey:"] {
+height: 50px;
+width: 71px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jorpop:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jorwest:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":emma2:"] {
+height: 50px;
+width: 75px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":shock:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":adams:"] {
+height: 50px;
+width: 80px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":questlove:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ztfjoke:"] {
+height: 50px;
+width: 50px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jags:"] {
+height: 50px;
+width: 49px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jorjor:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jordray:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":lebron3:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":lebron4:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":titi2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":yumm:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":rami:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pika:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":welp:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":travolta:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fragile:"] {
+height: 37px;
+width: 78px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jorpass:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":stanley2:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":deon:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":waitwut:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bitchwut:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":schboyq:"] {
+height: 50px;
+width: 69px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":triggered2:"] {
+height: 50px;
+width: 77px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":hillary3:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":jlow:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bruh:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":bronson:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":pascompris:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":homerhide:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":chirac:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":burns:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":clap2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":fear2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":ahahno:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":harvey2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":kbell:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":plz2:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":want:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":carell:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":goodbeat:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":regan:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
+
+img.emoji[title=":yaay:"] {
+height: 50px;
+width: 70px;
+vertical-align: bottom;
+}
