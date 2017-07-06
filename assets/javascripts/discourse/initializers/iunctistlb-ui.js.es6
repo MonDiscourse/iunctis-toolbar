@@ -32,6 +32,15 @@ function initializePlugin(api)
           perform: e => e.applySurround('[img]', '[/img]', 'addimg_ui_default_text')
         });
       });
+    
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "titlenews_ui_button",
+          group: "extras",
+          icon: "newspaper-o",
+          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titlenews_ui_default_text')
+        });
+      });
       
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
@@ -66,6 +75,15 @@ function initializePlugin(api)
           group: "extras",
           icon: "align-justify",
           perform: e => e.applySurround('[justify]', '[/justify]', 'justify_ui_default_text')
+        });
+      });
+    
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "highlight_ui_button",
+          group: "extras",
+          icon: "pencil-square",
+          perform: e => e.applySurround('[su]', '[/su]', 'highlight_ui_default_text')
         });
       });
   }
