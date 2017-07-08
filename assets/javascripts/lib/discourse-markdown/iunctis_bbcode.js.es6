@@ -17,6 +17,84 @@ function replaceFontSize (text) {
   return text;
 }
 
+function setupMarkdownIt(md) {
+  const ruler = md.inline.bbcode_ruler;
+
+  ruler.push('size', {
+    tag: 'size',
+    wrap: function(token, tagInfo){
+      token.tag = 'font';
+      token.attrs = [['size', tagInfo.attrs._default]];
+      return true;
+    }
+  });
+
+  ruler.push('color', {
+    tag: 'color',
+    wrap: function(token, tagInfo){
+      token.tag = 'font';
+      token.attrs = [['color', tagInfo.attrs._default]];
+      return true;
+    }
+  });
+
+  ruler.push('small',{
+    tag: 'small',
+    wrap: function(token) {
+      token.tag = 'span';
+      token.attrs = [['style', 'font-size:x-small']];
+      return true;
+    }
+  });
+  
+  ruler.push('floatl',{
+    tag: 'floatl',
+    wrap: function(token) {
+      token.tag = 'div';
+      token.attrs = [['class', 'floatl']];
+      return true;
+    }
+  });
+  
+  ruler.push('floatr',{
+    tag: 'floatr',
+    wrap: function(token) {
+      token.tag = 'div';
+      token.attrs = [['class', 'floatr']];
+      return true;
+    }
+  });
+  
+  ruler.push('t',{
+    tag: 't',
+    wrap: function(token) {
+      token.tag = 'div';
+      token.attrs = [['class', 'titrenews']];
+      return true;
+    }
+  });
+  
+  ruler.push('su',{
+    tag: 'su',
+    wrap: function(token) {
+      token.tag = 'span';
+      token.attrs = [['class', 'su']];
+      return true;
+    }
+  });
+
+  ['left','right','center','justify'].forEach(dir=>{
+    md.block.bbcode_ruler.push(dir, {
+      tag: dir,
+      wrap: function(token) {
+        token.attrs = [['style', 'text-align:' + dir]];
+        return true;
+      }
+    });
+  });
+
+}
+
 export function setup(helper) {
 
   helper.whiteList([
