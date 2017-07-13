@@ -1,7 +1,7 @@
 import { registerOption } from 'pretty-text/pretty-text';
 import { builders } from 'pretty-text/engines/discourse-markdown/bbcode';
 
-registerOption((siteSettings, opts) => opts.features["iunctis-bbcode"] = true);
+registerOption((siteSettings, opts) => opts.features["iunctis_bbcode"] = true);
 
 function replaceFontColor (text) {
   while (text !== (text = text.replace(/\[color=([^\]]+)\]((?:(?!\[color=[^\]]+\]|\[\/color\])[\S\s])*)\[\/color\]/ig, function (match, p1, p2) {
@@ -15,82 +15,6 @@ function replaceFontSize (text) {
     return `<font size='${p1}'>${p2}</font>`;
   })));
   return text;
-}
-
-function setupMarkdownIt(md) {
-  const ruler = md.inline.bbcode_ruler;
-
-  ruler.push('size', {
-    tag: 'size',
-    wrap: function(token, tagInfo){
-      token.tag = 'font';
-      token.attrs = [['size', tagInfo.attrs._default]];
-      return true;
-    }
-  });
-
-  ruler.push('color', {
-    tag: 'color',
-    wrap: function(token, tagInfo){
-      token.tag = 'font';
-      token.attrs = [['color', tagInfo.attrs._default]];
-      return true;
-    }
-  });
-
-  ruler.push('small',{
-    tag: 'small',
-    wrap: function(token) {
-      token.tag = 'span';
-      token.attrs = [['style', 'font-size:x-small']];
-      return true;
-    }
-  });
-  
-  ruler.push('t', {
-    tag: 't',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'titrenews']];
-      return true;
-    }
-  });
-  
-  ruler.push('su', {
-    tag: 'su',
-    wrap: function(token, tagInfo){
-      token.tag = 'span';
-      token.attrs = [['class', 'su']];
-      return true;
-    }
-  });
-  
-  ruler.push('floatl', {
-    tag: 'floatl',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'floatl']];
-      return true;
-    }
-  });
-
-  ruler.push('floatr', {
-    tag: 'floatr',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'floatr']];
-      return true;
-    }
-  });
-
-  ['left','center','right','justify'].forEach(dir=>{
-      tag: dir,
-      wrap: function(token) {
-        token.attrs = [['style', 'text-align:' + dir]];
-        return true;
-      }
-  });
-
 }
 
 export function setup(helper) {
