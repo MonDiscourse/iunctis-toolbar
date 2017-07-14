@@ -119,7 +119,7 @@ export function setup(helper) {
         return /^text-align:(center|left|right|justify)$/.exec(value);
       }
     }
-});
+  });
 
   if (helper.markdownIt) {
     helper.registerPlugin(setupMarkdownIt);
@@ -141,4 +141,5 @@ export function setup(helper) {
 
   helper.addPreProcessor(replaceFontColor);
   helper.addPreProcessor(replaceFontSize);
+  
 }
