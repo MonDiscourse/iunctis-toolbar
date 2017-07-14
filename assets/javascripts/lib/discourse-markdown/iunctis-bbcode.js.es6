@@ -124,18 +124,13 @@ function setupMarkdownIt(md) {
 export function setup(helper) {
 
   helper.whiteList([
-    'div.highlight',
-    'span.highlight',
-    'div.sepquote',
-    'span.smallfont',
-    'blockquote.indent',
+    'div.floatl',
+    'div.floatr',
+    'div.titrenews',
+    'span.su',
     'font[color=*]',
     'font[size=*]',
-    'font[face=*]',
-    'ol[type=*]'
   ]);
-
-
 
   helper.whiteList({
     custom(tag, name, value) {
