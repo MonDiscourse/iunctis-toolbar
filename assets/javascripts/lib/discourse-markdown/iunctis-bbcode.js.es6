@@ -82,13 +82,41 @@ function setupMarkdownIt(md) {
       return true;
     }
   });
-
-  ['left','center','right','justify'].forEach(dir=>{
-      tag: dir,
-      wrap: function(token) {
-        token.attrs = [['style', 'text-align:' + dir]];
-        return true;
-      }
+  
+  ruler.push('left', {
+    tag: 'left',
+    wrap: function(token, tagInfo){
+      token.tag = 'div';
+      token.attrs = [['style', 'text-align:left']];
+      return true;
+    }
+  });
+  
+  ruler.push('center', {
+    tag: 'center',
+    wrap: function(token, tagInfo){
+      token.tag = 'div';
+      token.attrs = [['style', 'text-align:center']];
+      return true;
+    }
+  });
+  
+  ruler.push('right', {
+    tag: 'right',
+    wrap: function(token, tagInfo){
+      token.tag = 'div';
+      token.attrs = [['style', 'text-align:right']];
+      return true;
+    }
+  });
+  
+  ruler.push('justify', {
+    tag: 'justify',
+    wrap: function(token, tagInfo){
+      token.tag = 'div';
+      token.attrs = [['style', 'text-align:justify']];
+      return true;
+    }
   });
 
 }
