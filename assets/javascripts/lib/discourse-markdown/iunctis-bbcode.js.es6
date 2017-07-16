@@ -129,7 +129,7 @@ export function setup(helper) {
     'div.titrenews',
     'span.su',
     'font[color=*]',
-    'font[size=*]',
+    'font[size=*]'
   ]);
 
   helper.whiteList({
