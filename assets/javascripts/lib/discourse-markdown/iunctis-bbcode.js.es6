@@ -18,7 +18,7 @@ function replaceFontSize (text) {
 }
 
 function setupMarkdownIt(md) {
-  const ruler = md.inline.bbcode_ruler;
+  const ruler = md.inline.bbcode.ruler;
 
   ruler.push('size', {
     tag: 'size',
