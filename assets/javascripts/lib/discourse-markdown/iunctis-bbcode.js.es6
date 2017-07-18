@@ -1,5 +1,4 @@
 import { registerOption } from 'pretty-text/pretty-text';
-import { builders } from 'pretty-text/engines/discourse-markdown/bbcode';
 
 registerOption((siteSettings, opts) => opts.features["iunctis-bbcode"] = true);
 
@@ -17,106 +16,77 @@ function replaceFontSize (text) {
   return text;
 }
 
+function wrap(tag, attr, callback) {
+  return function(startToken, finishToken, tagInfo) {
+    startToken.tag = finishToken.tag = tag;
+    startToken.content = finishToken.content = '';
+
+    startToken.type = 'bbcode_open';
+    finishToken.type = 'bbcode_close';
+
+    startToken.nesting = 1;
+    finishToken.nesting = -1;
+
+    startToken.attrs = [[attr, callback ? callback(tagInfo) : tagInfo.attrs._default]];
+  };
+}
+
 function setupMarkdownIt(md) {
   const ruler = md.inline.bbcode.ruler;
 
   ruler.push('size', {
     tag: 'size',
-    wrap: function(token, tagInfo){
-      token.tag = 'font';
-      token.attrs = [['size', tagInfo.attrs._default]];
-      return true;
-    }
+    wrap: wrap('font', 'size')
   });
 
   ruler.push('color', {
     tag: 'color',
-    wrap: function(token, tagInfo){
-      token.tag = 'font';
-      token.attrs = [['color', tagInfo.attrs._default]];
-      return true;
-    }
+    wrap: wrap('font', 'color')
+  });
+
+  ruler.push('t', {
+    tag: 't',
+    wrap: wrap('div', 'class', ()=>'titrenews')
+  });
+
+  ruler.push('su',{
+    tag: 'su',
+    wrap: 'span.su'
   });
 
   ruler.push('small',{
     tag: 'small',
-    wrap: function(token) {
-      token.tag = 'span';
-      token.attrs = [['style', 'font-size:x-small']];
-      return true;
-    }
+    wrap: wrap('span', 'style', ()=>'font-size:x-small')
   });
-  
-  ruler.push('t', {
-    tag: 't',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'titrenews']];
-      return true;
-    }
-  });
-  
-  ruler.push('su', {
-    tag: 'su',
-    wrap: function(token, tagInfo){
-      token.tag = 'span';
-      token.attrs = [['class', 'su']];
-      return true;
-    }
-  });
-  
+
   ruler.push('floatl', {
     tag: 'floatl',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'floatl']];
-      return true;
-    }
+    wrap: wrap('div', 'class', ()=>'floatl')
   });
 
   ruler.push('floatr', {
     tag: 'floatr',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['class', 'floatr']];
-      return true;
-    }
+    wrap: wrap('div', 'class', ()=>'floatr')
   });
-  
+
   ruler.push('left', {
     tag: 'left',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['style', 'text-align:left']];
-      return true;
-    }
+    wrap: wrap('div', 'style', ()=>'text-align:left')
   });
-  
+
   ruler.push('center', {
     tag: 'center',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['style', 'text-align:center']];
-      return true;
-    }
+    wrap: wrap('div', 'style', ()=>'text-align:center')
   });
-  
+
   ruler.push('right', {
     tag: 'right',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['style', 'text-align:right']];
-      return true;
-    }
+    wrap: wrap('div', 'style', ()=>'text-align:right')
   });
-  
+
   ruler.push('justify', {
     tag: 'justify',
-    wrap: function(token, tagInfo){
-      token.tag = 'div';
-      token.attrs = [['style', 'text-align:justify']];
-      return true;
-    }
+    wrap: wrap('div', 'style', ()=>'text-align:justify')
   });
 
 }
@@ -131,6 +101,8 @@ export function setup(helper) {
     'font[color=*]',
     'font[size=*]'
   ]);
+
+
 
   helper.whiteList({
     custom(tag, name, value) {
@@ -149,6 +121,7 @@ export function setup(helper) {
     return;
   }
 
+  const builders = requirejs('pretty-text/engines/discourse-markdown/bbcode').builders;
   const { register, replaceBBCode, rawBBCode, replaceBBCodeParamsRaw } = builders(helper);
 
   replaceBBCode("small", contents => ['span', {'style': 'font-size:x-small'}].concat(contents));
@@ -161,8 +134,7 @@ export function setup(helper) {
     replaceBBCode(direction, contents => ['div', {'style': "text-align:" + direction}].concat(contents));
   });
 
-
   helper.addPreProcessor(replaceFontColor);
   helper.addPreProcessor(replaceFontSize);
-  
+
 }
