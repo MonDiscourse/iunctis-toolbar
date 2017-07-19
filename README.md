@@ -1,17 +1,24 @@
-## Ajouts
+## BBcodes ajoutés
 
-- Titre de news
-- Couleur de texte
-- Surligner
-- Image
-- Float left
-- Centrer
-- Aligner à droite
-- Justifier
-- Retour à la ligne
+- Souligner (+)
+- Ajouter une image (+)
+- Titre news (+)
+- Float left (+)
+- Float right
+- Aligner à gauche
+- Centrer (+)
+- Aligner à droite (+)
+- Justifier (+)
+- Colorer du texte (+)
+- Surligner (+)
+- Taille du texte
+
+(+) = Présent sur la toolbar du composer
 
 
-## Remerciements
+## Remerciements 
 
-Matthew Wilkin
-https://github.com/cpradio/discourse-plugin-spoiler-ui
+- [ZogStrip](https://github.com/discourse/discourse-bbcode)
+- [eviltrout](https://github.com/eviltrout)
+- [Sam Saffron](https://github.com/SamSaffron)
+- [cpradio](https://github.com/cpradio)
