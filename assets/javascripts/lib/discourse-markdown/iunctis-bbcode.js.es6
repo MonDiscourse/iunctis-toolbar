@@ -69,6 +69,11 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'floatr')
   });
 
+  ruler.push('floatc', {
+    tag: 'floatc',
+    wrap: wrap('div', 'class', ()=>'floatc')
+  });
+
   ruler.push('left', {
     tag: 'left',
     wrap: wrap('div', 'style', ()=>'text-align:left')
@@ -96,6 +101,7 @@ export function setup(helper) {
   helper.whiteList([
     'div.floatl',
     'div.floatr',
+    'div.floatc',
     'div.titrenews',
     'span.su',
     'font[color=*]',
@@ -127,6 +133,7 @@ export function setup(helper) {
   replaceBBCode("small", contents => ['span', {'style': 'font-size:x-small'}].concat(contents));
   replaceBBCode("floatl", contents => ['div', {'class': 'floatl'}].concat(contents));
   replaceBBCode("floatr", contents => ['div', {'class': 'floatr'}].concat(contents));
+  replaceBBCode("floatr", contents => ['div', {'class': 'floatc'}].concat(contents));
   replaceBBCode("t", contents => ['div', {'class': 'titrenews'}].concat(contents));
   replaceBBCode('su', contents => ['span', { 'class': 'su' }].concat(contents));
 
