@@ -28,7 +28,7 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "titlenews_ui_button",
           group: "extras",
-          icon: "newspaper-o",
+          icon: "newspaper",
           perform: e => e.applySurround('[t]', '[/t]<hr>', 'titlenews_ui_default_text')
         });
       });
