@@ -33,7 +33,7 @@ function wrap(tag, attr, callback) {
 
 function setupMarkdownIt(md) {
   const ruler = md.inline.bbcode.ruler;
-
+  
   ruler.push('size', {
     tag: 'size',
     wrap: wrap('font', 'size')
@@ -79,7 +79,17 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'bbcodeleft')
   });
 
+  md.block.bbcode.ruler.push('left', {
+    tag: 'left',
+    wrap: wrap('div', 'class', ()=>'bbcodeleft')
+  });
+
   ruler.push('center', {
+    tag: 'center',
+    wrap: wrap('div', 'class', ()=>'bbcodecenter')
+  });
+
+  md.block.bbcode.ruler.push('center', {
     tag: 'center',
     wrap: wrap('div', 'class', ()=>'bbcodecenter')
   });
@@ -89,7 +99,17 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'bbcoderight')
   });
 
+  md.block.bbcode.ruler.push('right', {
+    tag: 'right',
+    wrap: wrap('div', 'class', ()=>'bbcoderight')
+  });
+
   ruler.push('justify', {
+    tag: 'justify',
+    wrap: wrap('div', 'class', ()=>'bbcodejustify')
+  });
+
+  md.block.bbcode.ruler.push('justify', {
     tag: 'justify',
     wrap: wrap('div', 'class', ()=>'bbcodejustify')
   });
