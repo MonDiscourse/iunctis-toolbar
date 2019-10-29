@@ -32,49 +32,48 @@ function wrap(tag, attr, callback) {
 }
 
 function setupMarkdownIt(md) {
-  const ruler = md.inline.bbcode.ruler;
   
-  ruler.push('size', {
+  md.inline.bbcode.ruler.push('size', {
     tag: 'size',
     wrap: wrap('font', 'size')
   });
 
-  ruler.push('color', {
+  md.inline.bbcode.ruler.push('color', {
     tag: 'color',
     wrap: wrap('font', 'color')
   });
 
-  ruler.push('t', {
+  md.inline.bbcode.ruler.push('t', {
     tag: 't',
     wrap: wrap('div', 'class', ()=>'titrenews')
   });
 
-  ruler.push('su',{
+  md.inline.bbcode.ruler.push('su',{
     tag: 'su',
     wrap: 'span.su'
   });
 
-  ruler.push('small',{
+  md.inline.bbcode.ruler.push('small',{
     tag: 'small',
     wrap: wrap('span', 'style', ()=>'font-size:x-small')
   });
 
-  ruler.push('floatl', {
+  md.inline.bbcode.ruler.push('floatl', {
     tag: 'floatl',
     wrap: wrap('div', 'class', ()=>'floatl')
   });
 
-  ruler.push('floatr', {
+  md.inline.bbcode.ruler.push('floatr', {
     tag: 'floatr',
     wrap: wrap('div', 'class', ()=>'floatr')
   });
 
-  ruler.push('floatc', {
+  md.inline.bbcode.ruler.push('floatc', {
     tag: 'floatc',
     wrap: wrap('div', 'class', ()=>'floatc')
   });
 
-  ruler.push('left', {
+  md.inline.bbcode.ruler.push('left', {
     tag: 'left',
     wrap: wrap('div', 'class', ()=>'bbcodeleft')
   });
@@ -84,7 +83,7 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'bbcodeleft')
   });
 
-  ruler.push('center', {
+  md.inline.bbcode.ruler.push('center', {
     tag: 'center',
     wrap: wrap('div', 'class', ()=>'bbcodecenter')
   });
@@ -94,7 +93,7 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'bbcodecenter')
   });
 
-  ruler.push('right', {
+  md.inline.bbcode.ruler.push('right', {
     tag: 'right',
     wrap: wrap('div', 'class', ()=>'bbcoderight')
   });
@@ -104,7 +103,7 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'bbcoderight')
   });
 
-  ruler.push('justify', {
+  md.inline.bbcode.ruler.push('justify', {
     tag: 'justify',
     wrap: wrap('div', 'class', ()=>'bbcodejustify')
   });
