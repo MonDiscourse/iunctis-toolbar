@@ -32,83 +32,64 @@ function wrap(tag, attr, callback) {
 }
 
 function setupMarkdownIt(md) {
-  
-  md.inline.bbcode.ruler.push('size', {
+  const ruler = md.inline.bbcode.ruler;
+
+  ruler.push('size', {
     tag: 'size',
     wrap: wrap('font', 'size')
   });
 
-  md.inline.bbcode.ruler.push('color', {
+  ruler.push('color', {
     tag: 'color',
     wrap: wrap('font', 'color')
   });
 
-  md.inline.bbcode.ruler.push('t', {
+  ruler.push('t', {
     tag: 't',
     wrap: wrap('div', 'class', ()=>'titrenews')
   });
 
-  md.inline.bbcode.ruler.push('su',{
+  ruler.push('su',{
     tag: 'su',
     wrap: 'span.su'
   });
 
-  md.inline.bbcode.ruler.push('small',{
+  ruler.push('small',{
     tag: 'small',
     wrap: wrap('span', 'style', ()=>'font-size:x-small')
   });
 
-  md.inline.bbcode.ruler.push('floatl', {
+  ruler.push('floatl', {
     tag: 'floatl',
     wrap: wrap('div', 'class', ()=>'floatl')
   });
 
-  md.inline.bbcode.ruler.push('floatr', {
+  ruler.push('floatr', {
     tag: 'floatr',
     wrap: wrap('div', 'class', ()=>'floatr')
   });
 
-  md.inline.bbcode.ruler.push('floatc', {
+  ruler.push('floatc', {
     tag: 'floatc',
     wrap: wrap('div', 'class', ()=>'floatc')
   });
 
-  md.inline.bbcode.ruler.push('left', {
+  ruler.push('left', {
     tag: 'left',
     wrap: wrap('div', 'class', ()=>'bbcodeleft')
   });
 
-  md.block.bbcode.ruler.push('left', {
-    tag: 'left',
-    wrap: wrap('div', 'class', ()=>'bbcodeleft')
-  });
-
-  md.inline.bbcode.ruler.push('center', {
+  ruler.push('center', {
     tag: 'center',
     wrap: wrap('div', 'class', ()=>'bbcodecenter')
   });
 
-  md.block.bbcode.ruler.push('center', {
-    tag: 'center',
-    wrap: wrap('div', 'class', ()=>'bbcodecenter')
-  });
-
-  md.inline.bbcode.ruler.push('right', {
+  ruler.push('right', {
     tag: 'right',
     wrap: wrap('div', 'class', ()=>'bbcoderight')
   });
 
-  md.block.bbcode.ruler.push('right', {
-    tag: 'right',
-    wrap: wrap('div', 'class', ()=>'bbcoderight')
-  });
-
-  md.inline.bbcode.ruler.push('justify', {
-    tag: 'justify',
-    wrap: wrap('div', 'class', ()=>'bbcodejustify')
-  });
-
-  md.block.bbcode.ruler.push('justify', {
+  ruler.push('justify', {
     tag: 'justify',
     wrap: wrap('div', 'class', ()=>'bbcodejustify')
   });
