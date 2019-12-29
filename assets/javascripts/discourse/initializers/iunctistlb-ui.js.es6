@@ -19,7 +19,7 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "addimg_ui_button",
           group: "extras",
-          icon: "image",
+          icon: "far-image",
           perform: e => e.applySurround('[img]', '[/img]', 'addimg_ui_default_text')
         });
       });
@@ -28,7 +28,7 @@ function initializePlugin(api)
         toolbar.addButton({
           id: "titlenews_ui_button",
           group: "extras",
-          icon: "newspaper",
+          icon: "far-newspaper",
           perform: e => e.applySurround('[t]', '[/t]<hr>', 'titlenews_ui_default_text')
         });
       });
