@@ -6,7 +6,7 @@ fr:
       titlenews_ui_button_title: "Utiliser la mise en page d'un titre"
       titlenews_ui_default_text: "Titre"
       addimg_ui_button_title: "Ajouter une image"
-      addimg_ui_default_text: "http://"
+      addimg_ui_default_text: "https://"
       floatl_ui_button_title: "Ajouter du contenu à gauche"
       floatl_ui_default_text: "Texte"
       center_ui_button_title: "Centrer un texte ou une image"

@@ -6,7 +6,7 @@ en:
       titlenews_ui_button_title: "Add a title"
       titlenews_ui_default_text: "Titre"
       addimg_ui_button_title: "Add an image"
-      addimg_ui_default_text: "http://"
+      addimg_ui_default_text: "https://"
       floatl_ui_button_title: "Add some content on the left"
       floatl_ui_default_text: "Text or Image"
       center_ui_button_title: "Center element"
