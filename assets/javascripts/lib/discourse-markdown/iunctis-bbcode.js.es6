@@ -74,6 +74,11 @@ function setupMarkdownIt(md) {
     wrap: wrap('div', 'class', ()=>'floatc')
   });
 
+  ruler.push('colonnes', {
+    tag: 'colonnes',
+    wrap: wrap('div', 'class', ()=>'colonnes')
+  });
+
   ruler.push('left', {
     tag: 'left',
     wrap: wrap('div', 'class', ()=>'bbcodeleft')
@@ -102,6 +107,7 @@ export function setup(helper) {
     'div.floatl',
     'div.floatr',
     'div.floatc',
+    'div.colonnes',
     'div.bbcodeleft',
     'div.bbcodecenter',
     'div.bbcoderight',
@@ -134,6 +140,7 @@ export function setup(helper) {
   replaceBBCode("floatl", contents => ['div', {'class': 'floatl'}].concat(contents));
   replaceBBCode("floatr", contents => ['div', {'class': 'floatr'}].concat(contents));
   replaceBBCode("floatc", contents => ['div', {'class': 'floatc'}].concat(contents));
+  replaceBBCode("colonnes", contents => ['div', {'class': 'colonnes'}].concat(contents));
   replaceBBCode("left", contents => ['div', {'class': 'bbcodeleft'}].concat(contents));
   replaceBBCode("center", contents => ['div', {'class': 'bbcodecenter'}].concat(contents));
   replaceBBCode("right", contents => ['div', {'class': 'bbcoderight'}].concat(contents));
