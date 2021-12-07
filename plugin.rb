@@ -3,6 +3,7 @@
 # version: 2.3
 # authors: Steven
 # url: https://github.com/iunctis/iunctis-toolbar
+# transpile_js: true
 
 enabled_site_setting :iunctistlb_ui_enabled
 

@@ -1,7 +1,3 @@
-import { registerOption } from 'pretty-text/pretty-text';
-
-registerOption((siteSettings, opts) => opts.features["iunctis-bbcode"] = true);
-
 function replaceFontColor (text) {
   while (text !== (text = text.replace(/\[color=([^\]]+)\]((?:(?!\[color=[^\]]+\]|\[\/color\])[\S\s])*)\[\/color\]/ig, function (match, p1, p2) {
     return `<font color='${p1}'>${p2}</font>`;
@@ -126,6 +122,10 @@ export function setup(helper) {
         return /^font-size:.*$/.exec(value);
       }
     }
+  });
+
+  helper.registerOptions((opts) => {
+    opts.features["iunctis-bbcode"] = true;
   });
 
   if (helper.markdownIt) {
