@@ -1,5 +1,4 @@
 import { withPluginApi } from 'discourse/lib/plugin-api';
-import { onToolbarCreate } from 'discourse/components/d-editor';
 
 function initializePlugin(api)
 {
