@@ -2,7 +2,7 @@ import { withPluginApi } from 'discourse/lib/plugin-api';
 
 function initializePlugin(api)
 {
-  const siteSettings = api.container.lookup('site-settings:main');
+  const siteSettings = api.container.lookup("service:site-settings");
 
   if (siteSettings.iunctistlb_ui_enabled) {
     api.onToolbarCreate(toolbar => {
